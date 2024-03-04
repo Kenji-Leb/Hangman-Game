@@ -3,7 +3,6 @@ const wordStorage = ["TEST", "RANDOM", "GENERATOR", "PLAY"];
 const dashesContainer = document.getElementById("answer-section");
 const letters = document.querySelectorAll('.letter');
 const hangedMan = document.getElementById("hang");
-const assets = ["head", "body", "left-hand", "right-hand", "left-leg", "right-leg"];
 const assetsClasses = ["head", "body", "left-hand", "right-hand", "left-leg", "right-leg"]
 
 function wordDashLengthGenerator() {
